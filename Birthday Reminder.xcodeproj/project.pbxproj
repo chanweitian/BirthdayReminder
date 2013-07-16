@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C332841717954963002B3621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841617954963002B3621 /* UIKit.framework */; };
+		C332841917954963002B3621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841817954963002B3621 /* Foundation.framework */; };
+		C332841B17954963002B3621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841A17954963002B3621 /* CoreGraphics.framework */; };
+		C332842117954963002B3621 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C332841F17954963002B3621 /* InfoPlist.strings */; };
+		C332842317954963002B3621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C332842217954963002B3621 /* main.m */; };
+		C332842717954963002B3621 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C332842617954963002B3621 /* BRAppDelegate.m */; };
+		C332843017954963002B3621 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C332842E17954963002B3621 /* MainStoryboard.storyboard */; };
+		C332843317954963002B3621 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C332843217954963002B3621 /* BRViewController.m */; };
+		C332844417955222002B3621 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332843B17955222002B3621 /* Default-568h@2x.png */; };
+		C332844517955222002B3621 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C332843C17955222002B3621 /* Default.png */; };
+		C332844617955222002B3621 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332843D17955222002B3621 /* Default@2x.png */; };
+		C332844717955222002B3621 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C332843E17955222002B3621 /* Icon-72.png */; };
+		C332844817955222002B3621 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332843F17955222002B3621 /* Icon-72@2x.png */; };
+		C332844917955222002B3621 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844017955222002B3621 /* Icon-Small.png */; };
+		C332844A17955222002B3621 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844117955222002B3621 /* Icon-Small@2x.png */; };
+		C332844B17955222002B3621 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844217955222002B3621 /* Icon.png */; };
+		C332844C17955222002B3621 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844317955222002B3621 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C332841317954963002B3621 /* Birthday Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C332841617954963002B3621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C332841817954963002B3621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C332841A17954963002B3621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C332841E17954963002B3621 /* Birthday Reminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Birthday Reminder-Info.plist"; sourceTree = "<group>"; };
+		C332842017954963002B3621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C332842217954963002B3621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C332842417954963002B3621 /* Birthday Reminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birthday Reminder-Prefix.pch"; sourceTree = "<group>"; };
+		C332842517954963002B3621 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		C332842617954963002B3621 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		C332842F17954963002B3621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C332843117954963002B3621 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
+		C332843217954963002B3621 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
+		C332843B17955222002B3621 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C332843C17955222002B3621 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C332843D17955222002B3621 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C332843E17955222002B3621 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		C332843F17955222002B3621 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		C332844017955222002B3621 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		C332844117955222002B3621 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C332844217955222002B3621 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C332844317955222002B3621 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C332841017954963002B3621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332841717954963002B3621 /* UIKit.framework in Frameworks */,
+				C332841917954963002B3621 /* Foundation.framework in Frameworks */,
+				C332841B17954963002B3621 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C332840A17954963002B3621 = {
+			isa = PBXGroup;
+			children = (
+				C332843917955222002B3621 /* resources */,
+				C332841C17954963002B3621 /* Birthday Reminder */,
+				C332841517954963002B3621 /* Frameworks */,
+				C332841417954963002B3621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C332841417954963002B3621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C332841317954963002B3621 /* Birthday Reminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C332841517954963002B3621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C332841617954963002B3621 /* UIKit.framework */,
+				C332841817954963002B3621 /* Foundation.framework */,
+				C332841A17954963002B3621 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C332841C17954963002B3621 /* Birthday Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C332842517954963002B3621 /* BRAppDelegate.h */,
+				C332842617954963002B3621 /* BRAppDelegate.m */,
+				C332842E17954963002B3621 /* MainStoryboard.storyboard */,
+				C332843117954963002B3621 /* BRViewController.h */,
+				C332843217954963002B3621 /* BRViewController.m */,
+				C332841D17954963002B3621 /* Supporting Files */,
+			);
+			path = "Birthday Reminder";
+			sourceTree = "<group>";
+		};
+		C332841D17954963002B3621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C332841E17954963002B3621 /* Birthday Reminder-Info.plist */,
+				C332841F17954963002B3621 /* InfoPlist.strings */,
+				C332842217954963002B3621 /* main.m */,
+				C332842417954963002B3621 /* Birthday Reminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C332843917955222002B3621 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C332843A17955222002B3621 /* images */,
+			);
+			name = resources;
+			path = "Birthday Reminder/resources";
+			sourceTree = "<group>";
+		};
+		C332843A17955222002B3621 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C332843B17955222002B3621 /* Default-568h@2x.png */,
+				C332843C17955222002B3621 /* Default.png */,
+				C332843D17955222002B3621 /* Default@2x.png */,
+				C332843E17955222002B3621 /* Icon-72.png */,
+				C332843F17955222002B3621 /* Icon-72@2x.png */,
+				C332844017955222002B3621 /* Icon-Small.png */,
+				C332844117955222002B3621 /* Icon-Small@2x.png */,
+				C332844217955222002B3621 /* Icon.png */,
+				C332844317955222002B3621 /* Icon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C332841217954963002B3621 /* Birthday Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C332843617954963002B3621 /* Build configuration list for PBXNativeTarget "Birthday Reminder" */;
+			buildPhases = (
+				C332840F17954963002B3621 /* Sources */,
+				C332841017954963002B3621 /* Frameworks */,
+				C332841117954963002B3621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birthday Reminder";
+			productName = "Birthday Reminder";
+			productReference = C332841317954963002B3621 /* Birthday Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C332840B17954963002B3621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Chan;
+			};
+			buildConfigurationList = C332840E17954963002B3621 /* Build configuration list for PBXProject "Birthday Reminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C332840A17954963002B3621;
+			productRefGroup = C332841417954963002B3621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C332841217954963002B3621 /* Birthday Reminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C332841117954963002B3621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332842117954963002B3621 /* InfoPlist.strings in Resources */,
+				C332843017954963002B3621 /* MainStoryboard.storyboard in Resources */,
+				C332844417955222002B3621 /* Default-568h@2x.png in Resources */,
+				C332844517955222002B3621 /* Default.png in Resources */,
+				C332844617955222002B3621 /* Default@2x.png in Resources */,
+				C332844717955222002B3621 /* Icon-72.png in Resources */,
+				C332844817955222002B3621 /* Icon-72@2x.png in Resources */,
+				C332844917955222002B3621 /* Icon-Small.png in Resources */,
+				C332844A17955222002B3621 /* Icon-Small@2x.png in Resources */,
+				C332844B17955222002B3621 /* Icon.png in Resources */,
+				C332844C17955222002B3621 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C332840F17954963002B3621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C332842317954963002B3621 /* main.m in Sources */,
+				C332842717954963002B3621 /* BRAppDelegate.m in Sources */,
+				C332843317954963002B3621 /* BRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C332841F17954963002B3621 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C332842017954963002B3621 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C332842E17954963002B3621 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C332842F17954963002B3621 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C332843417954963002B3621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C332843517954963002B3621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C332843717954963002B3621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birthday Reminder/Birthday Reminder-Prefix.pch";
+				INFOPLIST_FILE = "Birthday Reminder/Birthday Reminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C332843817954963002B3621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birthday Reminder/Birthday Reminder-Prefix.pch";
+				INFOPLIST_FILE = "Birthday Reminder/Birthday Reminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C332840E17954963002B3621 /* Build configuration list for PBXProject "Birthday Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332843417954963002B3621 /* Debug */,
+				C332843517954963002B3621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C332843617954963002B3621 /* Build configuration list for PBXNativeTarget "Birthday Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C332843717954963002B3621 /* Debug */,
+				C332843817954963002B3621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C332840B17954963002B3621 /* Project object */;
+}
