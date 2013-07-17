@@ -21,6 +21,8 @@
 @property (weak, nonatomic) IBOutlet UIImageView *photoView;
 @property (weak, nonatomic) IBOutlet UILabel *picPhotoLabel;
 
+@property (nonatomic, strong) NSMutableDictionary *birthday;
+
 - (IBAction)didTapPhoto:(id)sender;
 
 - (IBAction)didChangeNameText:(id)sender;

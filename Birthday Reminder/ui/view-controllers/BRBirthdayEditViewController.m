@@ -50,8 +50,21 @@
 	// Do any additional setup after loading the view.
 }
 
-- (void) viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSString *name = self.birthday [@"name"];
+    NSDate *birthdate = self.birthday[@"birthdate"];
+    UIImage *image = self.birthday[@"image"];
+    
+    self.nameTextField.text = name;
+    self.datePicker.date = birthdate;
+    if (image == nil){
+        self.photoView.image = [UIImage imageNamed:@"icon-birthday-cake.png"];
+    } else {
+        self.photoView.image = image;
+    }
+
     [self updateSaveButton];
 }
 
@@ -82,6 +95,7 @@
 
 - (IBAction)didChangeNameText:(id)sender {
     NSLog(@"The text was changed to: %@", self.nameTextField.text);
+    self.birthday[@"name"] = self.nameTextField.text;
     [self updateSaveButton];
 }
 
@@ -94,6 +108,7 @@
 }
 - (IBAction)didChangeDatePicker:(id)sender {
     NSLog(@"New Birthdate Selected: %@",self.datePicker.date);
+    self.birthday[@"birthdate"] = self.datePicker.date;
     
 }
 
@@ -133,8 +148,9 @@
     [picker dismissViewControllerAnimated:YES completion:nil];
     
     UIImage *image = info[UIImagePickerControllerOriginalImage];
-    
     self.photoView.image = image;
+    
+    self.birthday[@"image"] = image;
     
 }
 

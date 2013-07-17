@@ -12,4 +12,7 @@
 
 @interface BRDetailViewController : BRCoreViewController
 
+@property (strong, nonatomic) NSMutableDictionary *birthday;
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
+
 @end

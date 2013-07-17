@@ -18,6 +18,17 @@
 		C31F9864179691C200E26266 /* icon-birthday-cake@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31F9860179691C200E26266 /* icon-birthday-cake@2x.png */; };
 		C31F9865179691C200E26266 /* thumbnail-background.png in Resources */ = {isa = PBXBuildFile; fileRef = C31F9861179691C200E26266 /* thumbnail-background.png */; };
 		C31F9866179691C200E26266 /* thumbnail-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31F9862179691C200E26266 /* thumbnail-background@2x.png */; };
+		C31F986817969DC600E26266 /* birthdays.plist in Resources */ = {isa = PBXBuildFile; fileRef = C31F986717969DC600E26266 /* birthdays.plist */; };
+		C31F987417969DE800E26266 /* aloe-blacc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986A17969DE800E26266 /* aloe-blacc.jpg */; };
+		C31F987517969DE800E26266 /* angelina-jolie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986B17969DE800E26266 /* angelina-jolie.jpg */; };
+		C31F987617969DE800E26266 /* brad-pitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986C17969DE800E26266 /* brad-pitt.jpg */; };
+		C31F987717969DE800E26266 /* christina-aguilera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986D17969DE800E26266 /* christina-aguilera.jpg */; };
+		C31F987817969DE800E26266 /* jamie-oliver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986E17969DE800E26266 /* jamie-oliver.jpg */; };
+		C31F987917969DE800E26266 /* justin-bieber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F986F17969DE800E26266 /* justin-bieber.jpg */; };
+		C31F987A17969DE800E26266 /* katy-perry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F987017969DE800E26266 /* katy-perry.jpg */; };
+		C31F987B17969DE800E26266 /* olly-murs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F987117969DE800E26266 /* olly-murs.jpg */; };
+		C31F987C17969DE800E26266 /* russell-brand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F987217969DE800E26266 /* russell-brand.jpg */; };
+		C31F987D17969DE800E26266 /* scarlett-johansson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C31F987317969DE800E26266 /* scarlett-johansson.jpg */; };
 		C332841717954963002B3621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841617954963002B3621 /* UIKit.framework */; };
 		C332841917954963002B3621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841817954963002B3621 /* Foundation.framework */; };
 		C332841B17954963002B3621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C332841A17954963002B3621 /* CoreGraphics.framework */; };
@@ -55,6 +66,17 @@
 		C31F9860179691C200E26266 /* icon-birthday-cake@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-birthday-cake@2x.png"; sourceTree = "<group>"; };
 		C31F9861179691C200E26266 /* thumbnail-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail-background.png"; sourceTree = "<group>"; };
 		C31F9862179691C200E26266 /* thumbnail-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail-background@2x.png"; sourceTree = "<group>"; };
+		C31F986717969DC600E26266 /* birthdays.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = birthdays.plist; path = ../birthdays.plist; sourceTree = "<group>"; };
+		C31F986A17969DE800E26266 /* aloe-blacc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aloe-blacc.jpg"; sourceTree = "<group>"; };
+		C31F986B17969DE800E26266 /* angelina-jolie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angelina-jolie.jpg"; sourceTree = "<group>"; };
+		C31F986C17969DE800E26266 /* brad-pitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brad-pitt.jpg"; sourceTree = "<group>"; };
+		C31F986D17969DE800E26266 /* christina-aguilera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "christina-aguilera.jpg"; sourceTree = "<group>"; };
+		C31F986E17969DE800E26266 /* jamie-oliver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jamie-oliver.jpg"; sourceTree = "<group>"; };
+		C31F986F17969DE800E26266 /* justin-bieber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "justin-bieber.jpg"; sourceTree = "<group>"; };
+		C31F987017969DE800E26266 /* katy-perry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "katy-perry.jpg"; sourceTree = "<group>"; };
+		C31F987117969DE800E26266 /* olly-murs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "olly-murs.jpg"; sourceTree = "<group>"; };
+		C31F987217969DE800E26266 /* russell-brand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "russell-brand.jpg"; sourceTree = "<group>"; };
+		C31F987317969DE800E26266 /* scarlett-johansson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scarlett-johansson.jpg"; sourceTree = "<group>"; };
 		C332841317954963002B3621 /* Birthday Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birthday Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C332841617954963002B3621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C332841817954963002B3621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +142,23 @@
 			path = "view-controllers";
 			sourceTree = "<group>";
 		};
+		C31F986917969DE800E26266 /* Celebrity Pics */ = {
+			isa = PBXGroup;
+			children = (
+				C31F986A17969DE800E26266 /* aloe-blacc.jpg */,
+				C31F986B17969DE800E26266 /* angelina-jolie.jpg */,
+				C31F986C17969DE800E26266 /* brad-pitt.jpg */,
+				C31F986D17969DE800E26266 /* christina-aguilera.jpg */,
+				C31F986E17969DE800E26266 /* jamie-oliver.jpg */,
+				C31F986F17969DE800E26266 /* justin-bieber.jpg */,
+				C31F987017969DE800E26266 /* katy-perry.jpg */,
+				C31F987117969DE800E26266 /* olly-murs.jpg */,
+				C31F987217969DE800E26266 /* russell-brand.jpg */,
+				C31F987317969DE800E26266 /* scarlett-johansson.jpg */,
+			);
+			path = "Celebrity Pics";
+			sourceTree = "<group>";
+		};
 		C332840A17954963002B3621 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +213,7 @@
 		C332843917955222002B3621 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				C31F986717969DC600E26266 /* birthdays.plist */,
 				C332843A17955222002B3621 /* images */,
 			);
 			path = resources;
@@ -182,6 +222,7 @@
 		C332843A17955222002B3621 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C31F986917969DE800E26266 /* Celebrity Pics */,
 				C31F985F179691C200E26266 /* icon-birthday-cake.png */,
 				C31F9860179691C200E26266 /* icon-birthday-cake@2x.png */,
 				C31F9861179691C200E26266 /* thumbnail-background.png */,
@@ -266,6 +307,17 @@
 				C31F9864179691C200E26266 /* icon-birthday-cake@2x.png in Resources */,
 				C31F9865179691C200E26266 /* thumbnail-background.png in Resources */,
 				C31F9866179691C200E26266 /* thumbnail-background@2x.png in Resources */,
+				C31F986817969DC600E26266 /* birthdays.plist in Resources */,
+				C31F987417969DE800E26266 /* aloe-blacc.jpg in Resources */,
+				C31F987517969DE800E26266 /* angelina-jolie.jpg in Resources */,
+				C31F987617969DE800E26266 /* brad-pitt.jpg in Resources */,
+				C31F987717969DE800E26266 /* christina-aguilera.jpg in Resources */,
+				C31F987817969DE800E26266 /* jamie-oliver.jpg in Resources */,
+				C31F987917969DE800E26266 /* justin-bieber.jpg in Resources */,
+				C31F987A17969DE800E26266 /* katy-perry.jpg in Resources */,
+				C31F987B17969DE800E26266 /* olly-murs.jpg in Resources */,
+				C31F987C17969DE800E26266 /* russell-brand.jpg in Resources */,
+				C31F987D17969DE800E26266 /* scarlett-johansson.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
