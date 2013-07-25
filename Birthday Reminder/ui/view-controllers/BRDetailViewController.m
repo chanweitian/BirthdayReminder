@@ -8,6 +8,8 @@
 
 #import "BRDetailViewController.h"
 #import "BRBirthdayEditViewController.h"
+#import "BRDBirthday.h"
+#import "BRNotesEditViewController.h"
 
 @interface BRDetailViewController ()
 
@@ -34,9 +36,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     NSLog(@"viewWillApprea");
-    NSString *name = self.birthday[@"name"];
+    NSString *name = self.birthday.name;
     self.title = name;
-    UIImage *image = self.birthday[@"image"];
+    UIImage *image = [UIImage imageWithData:self.birthday.imageData];
     if (image == nil) {
         //default to the birthday cake pic if there's no birthday image
         self.photoView.image = [UIImage imageNamed:@"icon-birthday-cake.png"];
@@ -62,6 +64,11 @@
         BRBirthdayEditViewController *birthdayEditViewController =
         (BRBirthdayEditViewController *) navigationController.topViewController;
         birthdayEditViewController.birthday = self.birthday;
+    } else if ([identifier isEqualToString:@"EditNotes"]) {
+         UINavigationController *navigationController = segue.destinationViewController;
+        BRNotesEditViewController *birthdayNotesEditViewController =
+        (BRNotesEditViewController *) navigationController.topViewController;
+        birthdayNotesEditViewController.birthday = self.birthday;
     }
 }
 

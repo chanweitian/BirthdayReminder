@@ -7,8 +7,11 @@
 //
 
 #import "BRCoreViewController.h"
+@class BRDBirthday;
 
 @interface BRNotesEditViewController : BRCoreViewController <UITextFieldDelegate>
+
+@property(nonatomic,strong) BRDBirthday *birthday;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *saveButton;
 

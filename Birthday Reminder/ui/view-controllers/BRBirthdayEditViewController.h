@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BRCoreViewController.h"
+@class BRDBirthday;
 
 @interface BRBirthdayEditViewController : BRCoreViewController <UITextFieldDelegate, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
@@ -21,9 +22,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *photoView;
 @property (weak, nonatomic) IBOutlet UILabel *picPhotoLabel;
 
-@property (nonatomic, strong) NSMutableDictionary *birthday;
+@property (nonatomic, strong) BRDBirthday *birthday;
 
 - (IBAction)didTapPhoto:(id)sender;
 
 - (IBAction)didChangeNameText:(id)sender;
+
+
 @end

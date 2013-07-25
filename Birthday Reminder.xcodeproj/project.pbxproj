@@ -45,6 +45,11 @@
 		C332844A17955222002B3621 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844117955222002B3621 /* Icon-Small@2x.png */; };
 		C332844B17955222002B3621 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844217955222002B3621 /* Icon.png */; };
 		C332844C17955222002B3621 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C332844317955222002B3621 /* Icon@2x.png */; };
+		C3A1B9D2179FB57600685E32 /* UIImage+Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A1B9D1179FB57600685E32 /* UIImage+Thumbnail.m */; };
+		C3D45874179D0E1C004F26C3 /* BirthdayReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3D45872179D0E1C004F26C3 /* BirthdayReminder.xcdatamodeld */; };
+		C3D45877179D0F55004F26C3 /* BRDBirthday.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D45876179D0F55004F26C3 /* BRDBirthday.m */; };
+		C3D4587A179D37D1004F26C3 /* BRDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D45879179D37D1004F26C3 /* BRDModel.m */; };
+		C3D458B6179D3CB8004F26C3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D458B5179D3CB8004F26C3 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +102,14 @@
 		C332844117955222002B3621 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		C332844217955222002B3621 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		C332844317955222002B3621 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C3A1B9D0179FB57600685E32 /* UIImage+Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Thumbnail.h"; path = "categories/UIImage+Thumbnail.h"; sourceTree = "<group>"; };
+		C3A1B9D1179FB57600685E32 /* UIImage+Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Thumbnail.m"; path = "categories/UIImage+Thumbnail.m"; sourceTree = "<group>"; };
+		C3D45873179D0E1C004F26C3 /* BirthdayReminder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayReminder.xcdatamodel; sourceTree = "<group>"; };
+		C3D45875179D0F55004F26C3 /* BRDBirthday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDBirthday.h; sourceTree = "<group>"; };
+		C3D45876179D0F55004F26C3 /* BRDBirthday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDBirthday.m; sourceTree = "<group>"; };
+		C3D45878179D37D1004F26C3 /* BRDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRDModel.h; sourceTree = "<group>"; };
+		C3D45879179D37D1004F26C3 /* BRDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRDModel.m; sourceTree = "<group>"; };
+		C3D458B5179D3CB8004F26C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D458B6179D3CB8004F26C3 /* CoreData.framework in Frameworks */,
 				C332841717954963002B3621 /* UIKit.framework in Frameworks */,
 				C332841917954963002B3621 /* Foundation.framework in Frameworks */,
 				C332841B17954963002B3621 /* CoreGraphics.framework in Frameworks */,
@@ -117,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				C31F9849179665DE00E26266 /* view-controllers */,
+				C3A1B9D3179FB58100685E32 /* categories */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -162,6 +177,7 @@
 		C332840A17954963002B3621 = {
 			isa = PBXGroup;
 			children = (
+				C3D458B5179D3CB8004F26C3 /* CoreData.framework */,
 				C332841C17954963002B3621 /* Birthday Reminder */,
 				C332841517954963002B3621 /* Frameworks */,
 				C332841417954963002B3621 /* Products */,
@@ -194,6 +210,7 @@
 				C332842517954963002B3621 /* BRAppDelegate.h */,
 				C332842617954963002B3621 /* BRAppDelegate.m */,
 				C332842E17954963002B3621 /* MainStoryboard.storyboard */,
+				C3D45871179D0DF4004F26C3 /* data */,
 				C332841D17954963002B3621 /* Supporting Files */,
 			);
 			path = "Birthday Reminder";
@@ -238,6 +255,27 @@
 				C332844317955222002B3621 /* Icon@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		C3A1B9D3179FB58100685E32 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				C3A1B9D0179FB57600685E32 /* UIImage+Thumbnail.h */,
+				C3A1B9D1179FB57600685E32 /* UIImage+Thumbnail.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		C3D45871179D0DF4004F26C3 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C3D45872179D0E1C004F26C3 /* BirthdayReminder.xcdatamodeld */,
+				C3D45875179D0F55004F26C3 /* BRDBirthday.h */,
+				C3D45876179D0F55004F26C3 /* BRDBirthday.m */,
+				C3D45878179D37D1004F26C3 /* BRDModel.h */,
+				C3D45879179D37D1004F26C3 /* BRDModel.m */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +375,10 @@
 				C31F98581796701A00E26266 /* BRNotesEditViewController.m in Sources */,
 				C31F985B179671B200E26266 /* BRSettingsViewController.m in Sources */,
 				C31F985E1796728800E26266 /* BRNotificationTimeViewController.m in Sources */,
+				C3D45874179D0E1C004F26C3 /* BirthdayReminder.xcdatamodeld in Sources */,
+				C3D45877179D0F55004F26C3 /* BRDBirthday.m in Sources */,
+				C3D4587A179D37D1004F26C3 /* BRDModel.m in Sources */,
+				C3A1B9D2179FB57600685E32 /* UIImage+Thumbnail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +504,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3D45872179D0E1C004F26C3 /* BirthdayReminder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3D45873179D0E1C004F26C3 /* BirthdayReminder.xcdatamodel */,
+			);
+			currentVersion = C3D45873179D0E1C004F26C3 /* BirthdayReminder.xcdatamodel */;
+			path = BirthdayReminder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C332840B17954963002B3621 /* Project object */;
 }

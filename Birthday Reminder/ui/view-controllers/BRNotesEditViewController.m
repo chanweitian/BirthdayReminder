@@ -7,12 +7,16 @@
 //
 
 #import "BRNotesEditViewController.h"
+#import "BRDBirthday.h"
+#import "BRDModel.h"
 
 @interface BRNotesEditViewController ()
 
 @end
 
 @implementation BRNotesEditViewController
+
+@synthesize birthday;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,6 +36,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    self.textView.text = self.birthday.notes;
     [self.textView becomeFirstResponder];
 }
 
@@ -45,7 +50,19 @@
 
 - (void)textViewDidChange:(UITextView *)textView
 {
+    
+    self.birthday.notes =   self.textView.text;
     NSLog(@"User changed the notes text: %@",self.textView.text);
+}
+
+- (IBAction)cancelAndDismiss:(id)sender {
+    [[BRDModel sharedInstance] cancelChanges];
+    [super cancelAndDismiss:sender];
+}
+
+- (IBAction)saveAndDismiss:(id)sender {
+    [[BRDModel sharedInstance] saveChanges];
+    [super saveAndDismiss:sender];
 }
 
 @end
